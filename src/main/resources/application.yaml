@@ -1,0 +1,20 @@
+server:
+  port: 9001
+
+file:
+  police:
+    original: D:/001file/police/image
+    excel-path: D:/001file/police
+    zip: D:/001file
+  crime:
+    original: D:/001file/crime/image
+    excel-path: D/002file/crime
+    zip: D:/001file
+
+
+spring:
+  servlet:
+   multipart:
+    maxFileSize: 20MB
+    maxRequestSize: 100MB
+
